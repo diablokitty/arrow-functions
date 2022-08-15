@@ -57,8 +57,8 @@ console.log('Let\'s do some math:', add(4, 5));
 // We can only remove the parentheses when there is a single parameter
 const addOneLiner = (num1, num2) => `${num1} + ${num2} = ${num1 + num2}`;
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Add as a one-liner:', addOneLiner(4, 5));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('Add as a one-liner:', addOneLiner(4, 5));
 
 
 // STEP 7
@@ -69,8 +69,8 @@ const multiLiner = word => {
   return word;
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Multi-line arrow function:', multiLiner('hello'));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('Multi-line arrow function:', multiLiner('hello'));
 
 
 // STEP 8
@@ -84,8 +84,8 @@ const oldObject = function(array) {
   };
 };
 
-// TODO: Uncomment the following line of code to see the output in the browser console
-// console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
+// DONE: Uncomment the following line of code to see the output in the browser console
+console.log('Hello from the old object function', oldObject(['hi', 'hello', 'are you there?']));
 
 
 // STEP 9
